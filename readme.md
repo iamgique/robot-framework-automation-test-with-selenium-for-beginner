@@ -39,7 +39,8 @@ Click OK
 ```
 ![install Package](/images/1-system-variable.png)
 
-  Look up "Path" then click edit put **C:\Python27;** at the last character and then put **C:\Python27\Scripts;**
+  For **windows10** look up **Path** then click edit put **C:\Python27;** at the last character and then put **C:\Python27\Scripts;** other **windows**
+  For other **windows** look up **Path** then click edit put **;%PYTHON_HOME%\;%PYTHON_HOME%\Scripts**
   Click OK
 
 ![install Package](/images/2-system-variable.png)
