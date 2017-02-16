@@ -3,7 +3,7 @@
 ###Robot Framework is implemented with Python(both Python2 and Python3) and supports also Jython (JVM), IronPython (.NET) and PyPy.
 ###Python installation
 On most UNIX-like systems such as Linux and OS X you have Python installed by default.
-If you are on Windows or otherwise need to install Python yourself. [readme](/readme.me)
+If you are on Windows or otherwise need to install Python yourself.
 
 ###Why we use Python 2.7
 The last Python 2 release is **Python 2.7** that was released in **2010** and will be **supported until 2020**.
