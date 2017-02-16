@@ -1,15 +1,23 @@
 #Chapter 2
-###Part of Robot Framework
-####*** Settings ***
-**Documentation** : Description of this robot.\n
-**Library** : import library.\n
-**Resource** : Include other file.\n
-**Suite Setup** : The first to do when this robot working.\n
-**Suite Teardown** : The last to do before end of robot working.\n
-**Test Setup** : The first to do when test case working.\n
-**Test Teardown** : The last to do before end of test case working.\n
-**Test Template** : Template for test case.\n
-####*** Variables ***
+##Part of Robot Framework
+###*** Settings ***
+**Documentation**
+Description of this robot.
+**Library**
+import library.
+**Resource**
+Include other file.
+**Suite Setup**
+The first to do when this robot working.
+**Suite Teardown**
+The last to do before end of robot working.
+**Test Setup**
+The first to do when test case working.
+**Test Teardown**
+The last to do before end of test case working.
+**Test Template**
+Template for test case.
+###*** Variables ***
 **Eg.**
 ```
 ${TEST_VARIABLE}         Welcome to Robot Framework Automation Test with Selenium for beginner class.
@@ -27,7 +35,7 @@ ${TEST URL} is a **variable** and in Robot Framework variable can space.
 "http://${TEST_VARIABLE_A}/" is a **value**.
 ${TEST URL} = http://www.google.com/
 
-####*** Keywords ***
+###*** Keywords ***
 Keywords like a function in programming language.
 **Eg.**
 ```
@@ -40,7 +48,7 @@ Test Keywords2
     [Arguments]    ${param}
     Input Text    field_name    ${param}
 ```
-####*** Test Cases ***
+###*** Test Cases ***
 ```
 Name Test Case
     Open Browser To Login Page
