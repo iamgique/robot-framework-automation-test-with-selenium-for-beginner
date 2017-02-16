@@ -1,5 +1,6 @@
 #Robot Framework Automation Test with Selenium for beginner
 
+#SETUP
 ##Install Python 2.7
 ###Download Python: [download Python](https://www.python.org/ftp/python/2.7.8/python-2.7.8.msi)
 
@@ -92,3 +93,14 @@ pip install --upgrade robotframework
 # Install a specific version
 pip install robotframework==2.9.2
 ```
+
+##Install Robot Framework Selenium2library with pip
+```
+Command:
+pip install robotframework-selenium2library
+```
+
+###Download Chrome driver [Download Chrome driver](https://chromedriver.storage.googleapis.com/index.html?path=2.27/)
+Extract Zip then move **chromedriver.exe** to **C:\Python27\Scripts**
+
+##End of Setup
