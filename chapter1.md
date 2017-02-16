@@ -10,4 +10,7 @@ pybot login_tests
 pybot login_tests/valid_login.robot
 pybot login_tests/invalid_login.robot
 pybot --test InvalidUserName --loglevel DEBUG login_tests
+
+pybot --variable BROWSER:Chrome login_tests
+pybot --variable BROWSER:IE login_tests
 ```

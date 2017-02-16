@@ -98,6 +98,15 @@ pip install robotframework==2.9.2
 ```
 Command:
 pip install robotframework-selenium2library
+pip freeze
+appdirs==1.4.0
+decorator==4.0.11
+packaging==16.8
+pyparsing==2.1.10
+robotframework==3.0.2
+robotframework-selenium2library==1.8.0
+selenium==3.0.2
+six==1.10.0
 ```
 
 ###Download Chrome driver [Download Chrome driver](https://chromedriver.storage.googleapis.com/index.html?path=2.27/)
