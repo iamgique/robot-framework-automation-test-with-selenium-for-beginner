@@ -1,11 +1,33 @@
 #Chapter 2
-##Part of Robot Framework
+##Structure of Robot Framework
+
+```
+#Structure of Robot Framework
+*** Settings ***
+*** Variables ***
+*** Keywords ***
+*** Test Cases ***
+```
+
 ###*** Settings ***
-**Documentation** Description of this robot.
+In part of Settings to keep Keywords of Library. Which Library like a Dictionary classified 3 part.
+1. Standard
+2. External
+3. other
+
+![Libraries Standard](/images/libraries-standard.png)
+
+![Libraries External](/images/libraries-external.png)
+
+![Libraries Other](/images/libraries-other.png)
+
+[Document](http://robotframework.org/#libraries)
 
 **Library** import library.
 
 **Resource** Include other file.
+
+**Documentation** Description of this robot.
 
 **Suite Setup** The first to do when this robot working.
 
