@@ -18,6 +18,8 @@
 | 3  | Type a@a.com address to input text. Type password to input password. Submit to login    | รหัสผ่านที่คุณป้อนไม่ถุกต้อง ลืมรหัสผ่าน?              |             |        |
 |    |                                                                                     |                                            |             |        |
 
-![Facebook Login](/images/facebook-login-scenario.png)
+![Facebook Login scenario](/images/facebook-login-scenario.png)
 
 ![Facebook Login](/images/facebook-login.png)
+
+![Report](/images/facebook-login-report-success.png)
