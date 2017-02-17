@@ -9,11 +9,18 @@ This workshop use Variables.
 This workshop use **gherkin** style for test case.
 
 **Task**
+
 1.Start Server with Python.
+
 2.Run robot with valid_login.robot
+
 3.Run robot with invalid_login.robot
+
 4.Run robot with gherkin_login.robot
+
 5.Run robot all file
+
+6.Reports
 
 **Valid Login**
 valid_login.robot
