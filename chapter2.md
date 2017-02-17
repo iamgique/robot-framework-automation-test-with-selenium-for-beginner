@@ -10,18 +10,13 @@
 ```
 
 ###*** Settings ***
-In part of Settings to keep Keywords of Library. Which Library like a Dictionary classified 3 part.
-1. Standard
-2. External
-3. other
+In part of Settings to keep Keywords of Library. Which Library like a Dictionary classified 3 part. Standard, External, Other
 
 ![Libraries Standard](/images/libraries-standard.png)
 
 ![Libraries External](/images/libraries-external.png)
 
 ![Libraries Other](/images/libraries-other.png)
-
-[Document](http://robotframework.org/#libraries)
 
 **Library** import library.
 
@@ -38,6 +33,8 @@ In part of Settings to keep Keywords of Library. Which Library like a Dictionary
 **Test Teardown** The last to do before end of test case working.
 
 **Test Template** Template for test case.
+
+You can learn more at [robotframework](http://robotframework.org/#libraries).
 
 ###*** Variables ***
 **Eg.**
@@ -78,4 +75,20 @@ Name Test Case
     Input Text    password_field    password
     Click Button    ok_button
     [Teardown]    Close Browser
+```
+
+##Command for run Robot Framework
+```
+Command:
+robot ... (Robot 3.0 or more)
+pybot ... (Robot 2.9 or earlier)
+robot --help (for more information)
+
+pybot login_tests
+pybot login_tests/valid_login.robot
+pybot login_tests/invalid_login.robot
+pybot --test InvalidUserName --loglevel DEBUG login_tests
+
+pybot --variable BROWSER:Chrome login_tests
+pybot --variable BROWSER:IE login_tests
 ```
