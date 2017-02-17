@@ -1,22 +1,22 @@
 #Chapter 2
 ##Part of Robot Framework
 ###*** Settings ***
-**Documentation**
-Description of this robot.
-**Library**
-import library.
-**Resource**
-Include other file.
-**Suite Setup**
-The first to do when this robot working.
-**Suite Teardown**
-The last to do before end of robot working.
-**Test Setup**
-The first to do when test case working.
-**Test Teardown**
-The last to do before end of test case working.
-**Test Template**
-Template for test case.
+**Documentation** Description of this robot.
+
+**Library** import library.
+
+**Resource** Include other file.
+
+**Suite Setup** The first to do when this robot working.
+
+**Suite Teardown** The last to do before end of robot working.
+
+**Test Setup** The first to do when test case working.
+
+**Test Teardown** The last to do before end of test case working.
+
+**Test Template** Template for test case.
+
 ###*** Variables ***
 **Eg.**
 ```
