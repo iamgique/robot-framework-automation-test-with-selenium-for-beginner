@@ -71,7 +71,41 @@ virtualenv==1.11.6
 
 -----------------
 
-##Install Tools
+#Install Robot Framework with pip
+```
+Command:
+pip install robotframework
+```
+
+```
+# Upgrade to the latest version
+pip install --upgrade robotframework
+
+# Install a specific version
+pip install robotframework==2.9.2
+```
+
+#Install Robot Framework Selenium2library with pip
+```
+Command:
+pip install robotframework-selenium2library
+pip freeze
+appdirs==1.4.0
+decorator==4.0.11
+packaging==16.8
+pyparsing==2.1.10
+robotframework==3.0.2
+robotframework-selenium2library==1.8.0
+selenium==3.0.2
+six==1.10.0
+```
+
+###Download Chrome driver [Download Chrome driver](https://chromedriver.storage.googleapis.com/index.html?path=2.27/)
+Extract Zip then move **chromedriver.exe** to **C:\Python27\Scripts**
+
+-----------------
+
+#Install Tools
 
 ###RIDE
 RIDE made from robot framework developer.<br />
@@ -107,39 +141,5 @@ PyCharm develop by jetbrains. eg. IntelliJ, PhpStorm<br />
 Install PyCharm and then run it.<br />
 
 ![install Package](/images/4-install-pycharm.png)
-
------------------
-
-##Install Robot Framework with pip
-```
-Command:
-pip install robotframework
-```
-
-```
-# Upgrade to the latest version
-pip install --upgrade robotframework
-
-# Install a specific version
-pip install robotframework==2.9.2
-```
-
-##Install Robot Framework Selenium2library with pip
-```
-Command:
-pip install robotframework-selenium2library
-pip freeze
-appdirs==1.4.0
-decorator==4.0.11
-packaging==16.8
-pyparsing==2.1.10
-robotframework==3.0.2
-robotframework-selenium2library==1.8.0
-selenium==3.0.2
-six==1.10.0
-```
-
-###Download Chrome driver [Download Chrome driver](https://chromedriver.storage.googleapis.com/index.html?path=2.27/)
-Extract Zip then move **chromedriver.exe** to **C:\Python27\Scripts**
 
 ##End of Setup
