@@ -1,29 +1,23 @@
 #Workshop 2
 ###Login Website
 
-**This workshop like a workshop 1 but this workshop difference**
+**This workshop like a workshop 1 but this workshop difference**<br />
 
-**Workshop 2** run at your local by python server.
-This workshop use Library and keywords. eg. **Suite Setup, Suite Teardown, Test Setup, Test Template**.
-This workshop use Variables.
-This workshop use **gherkin** style for test case.
+**Workshop 2** run at your local by python server.<br />
+This workshop use Library and keywords. eg. **Suite Setup, Suite Teardown, Test Setup, Test Template**.<br />
+This workshop use Variables.<br />
+This workshop use **gherkin** style for test case.<br />
 
-**Task**
+**Task**<br />
+1.Start Server with Python.<br />
+2.Run robot with valid_login.robot<br />
+3.Run robot with invalid_login.robot<br />
+4.Run robot with gherkin_login.robot<br />
+5.Run robot all file<br />
+6.Reports<br />
 
-1.Start Server with Python.
-
-2.Run robot with valid_login.robot
-
-3.Run robot with invalid_login.robot
-
-4.Run robot with gherkin_login.robot
-
-5.Run robot all file
-
-6.Reports
-
-**Valid Login**
-valid_login.robot
+**Valid Login**<br />
+valid_login.robot<br />
 
 | No | Test Procedure                                                                                        | Expected Result             | Test Result | Remark |
 |----|-------------------------------------------------------------------------------------------------------|-----------------------------|-------------|--------|
@@ -31,8 +25,8 @@ valid_login.robot
 | 2  | Type demo to input text username_field.  Type mode to input password password_field.  Submit to login | Welcome Page Should Be Open |             |        |
 
 
-**invalid Login**
-invalid_login.robot
+**invalid Login**<br />
+invalid_login.robot<br />
 
 | No | Test Procedure                                                                                          | Expected Result                                      | Test Result | Remark |
 |----|---------------------------------------------------------------------------------------------------------|------------------------------------------------------|-------------|--------|
@@ -43,8 +37,8 @@ invalid_login.robot
 | 5  | Type demo to input text username_field. Type "" to input password password_field. Submit to login       | Location Should Be error. Title Should Be,Error Page |             |        |
 | 6  | Type "" to input text username_field. Type "" to input password password_field. Submit to login         | Location Should Be error. Title Should Be,Error Page |             |        |
 
-**Valid Login with gherkin style**
-gherkin_login.robot
+**Valid Login with gherkin style**<br />
+gherkin_login.robot<br />
 
 | No | Test Procedure                                                                                        | Expected Result             | Test Result | Remark |
 |----|-------------------------------------------------------------------------------------------------------|-----------------------------|-------------|--------|

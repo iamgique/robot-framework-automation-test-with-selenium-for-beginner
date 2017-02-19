@@ -10,7 +10,7 @@
 ```
 
 ###*** Settings ***
-In part of Settings to keep Keywords of Library. Which Library like a Dictionary classified 3 part. Standard, External, Other
+In part of Settings to keep Keywords of Library. Which Library like a Dictionary classified 3 part. Standard, External, Other<br />
 
 ![Libraries Standard](/images/libraries-standard.png)
 
@@ -18,21 +18,14 @@ In part of Settings to keep Keywords of Library. Which Library like a Dictionary
 
 ![Libraries Other](/images/libraries-other.png)
 
-**Library** import library.
-
-**Resource** Include other file.
-
-**Documentation** Description of this robot.
-
-**Suite Setup** The first to do when this robot working.
-
-**Suite Teardown** The last to do before end of robot working.
-
-**Test Setup** The first to do when test case working.
-
-**Test Teardown** The last to do before end of test case working.
-
-**Test Template** Template for test case.
+**Library** import library.<br />
+**Resource** Include other file.<br />
+**Documentation** Description of this robot.<br />
+**Suite Setup** The first to do when this robot working.<br />
+**Suite Teardown** The last to do before end of robot working.<br />
+**Test Setup** The first to do when test case working.<br />
+**Test Teardown** The last to do before end of test case working.<br />
+**Test Template** Template for test case.<br />
 
 You can learn more at [robotframework](http://robotframework.org/#libraries).
 
@@ -41,27 +34,26 @@ You can learn more at [robotframework](http://robotframework.org/#libraries).
 ```
 ${TEST_VARIABLE}         Welcome to Robot Framework Automation Test with Selenium for beginner class.
 ```
-${TEST_VARIABLE} is a **variable**.
-"Welcome to Robot Framework Automation Test with Selenium for beginner class." is a **value**.
-
-**Eg2.**
+${TEST_VARIABLE} is a **variable**.<br />
+"Welcome to Robot Framework Automation Test with Selenium for beginner class." is a **value**.<br />
+**Eg2.**<br />
 ```
 ${TEST_VARIABLE_A}         www.google.com
 ${TEST URL}      http://${TEST_VARIABLE_A}/
 ```
-${TEST_VARIABLE_A} is a **variable**.
-${TEST URL} is a **variable** and in Robot Framework variable can space.
-"http://${TEST_VARIABLE_A}/" is a **value**.
-${TEST URL} = http://www.google.com/
+${TEST_VARIABLE_A} is a **variable**.<br />
+${TEST URL} is a **variable** and in Robot Framework variable can space.<br />
+"http://${TEST_VARIABLE_A}/" is a **value**.<br />
+${TEST URL} = http://www.google.com/<br />
 
 ###*** Keywords ***
-Keywords like a function in programming language.
-**Eg.**
+Keywords like a function in programming language.<br />
+**Eg.**<br />
 ```
 Test Keywords
     Click Button    ok_button
 ```
-**Eg2.**
+**Eg2.**<br />
 ```
 Test Keywords2
     [Arguments]    ${param}

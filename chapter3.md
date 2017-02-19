@@ -2,10 +2,10 @@
 ##Selenium2Library
 
 ###Introduction
-Selenium2Library is a web testing library for Robot Framework.
+Selenium2Library is a web testing library for Robot Framework.<br />
 
 ###Locating or specifying elements
-Using locators
+Using locators<br />
 
 | Strategy     | Example                                       | Description                                        |
 |--------------|-----------------------------------------------|----------------------------------------------------|
@@ -23,7 +23,7 @@ Using locators
 | default*     | Click Link,| default=page?a=b                 | Matches key attributes with value after first '='  |
 |              |                                               |                                                    |
 
-Using webelements
+Using webelements<br />
 
 | ${elem} =     | Get WebElement | id=my_element |
 |---------------|----------------|---------------|
