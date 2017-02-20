@@ -2,6 +2,8 @@
 
 #Welcome to Robot Framework Automation Test with Selenium for beginner class
 
+##Robot Framework is Software Open Source for Acceptance Testing 
+
 ###Robot Framework is implemented with Python(both Python2 and Python3) and supports also Jython (JVM), IronPython (.NET) and PyPy.
 ###Python installation
 On most UNIX-like systems such as Linux and OS X you have Python installed by default.
