@@ -40,8 +40,9 @@ Click OK
 ```
 ![install Package](/images/1-system-variable.png)
 
-  For **windows10** look up **Path** then click edit put **C:\Python27;** at the last character and then put **C:\Python27\Scripts;** other **windows**
-  For other **windows** look up **Path** then click edit put **;%PYTHON_HOME%\;%PYTHON_HOME%\Scripts**
+  For **windows10** look up **Path** then click edit put **C:\Python27;** at the last character<br />
+  and then put **C:\Python27\Scripts;** other **windows**<br />
+  For other **windows** look up **Path** then click edit put **;%PYTHON_HOME%\;%PYTHON_HOME%\Scripts**<br />
   Click OK
 
 ![install Package](/images/2-system-variable.png)
@@ -66,21 +67,11 @@ requests==2.3.0
 virtualenv==1.11.6
 ```
 
-###Documentation: [Document](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation)
+**Documentation: [Document](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation)**
 
 -----------------
 
-##Install Text editor
-###Download ATOM: [Download ATOM](https://atom.io/)
-After installed go to **file > settings** click Install then type robot and type terminal follow figure.
-
-![install Package](/images/2-install-package.png)
-
-![install Package](/images/3-install-package.png)
-
------------------
-
-##Install Robot Framework with pip
+#Install Robot Framework with pip
 ```
 Command:
 pip install robotframework
@@ -94,7 +85,7 @@ pip install --upgrade robotframework
 pip install robotframework==2.9.2
 ```
 
-##Install Robot Framework Selenium2library with pip
+#Install Robot Framework Selenium2library with pip
 ```
 Command:
 pip install robotframework-selenium2library
@@ -111,5 +102,44 @@ six==1.10.0
 
 ###Download Chrome driver [Download Chrome driver](https://chromedriver.storage.googleapis.com/index.html?path=2.27/)
 Extract Zip then move **chromedriver.exe** to **C:\Python27\Scripts**
+
+-----------------
+
+#Install Tools
+
+###RIDE
+RIDE made from robot framework developer.<br />
+Easy to work because it's don't need type programming.<br />
+**Download wxpython 2.8.12.1 for windows64bit: [Download wxpython 2.8.12.1 windows64bit](https://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/wxPython2.8-win64-unicode-2.8.12.1-py27.exe/download)**<br />
+**Download wxpython 2.8.12.1 for windows32bit: [Download wxpython 2.8.12.1 windows32bit](https://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/wxPython2.8-win32-unicode-2.8.12.1-py27.exe/download)**<br />
+**List of wxpython: [List wxpython 2.8.12.1](https://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/)**<br />
+Install wxpython 2.8.12.1<br />
+
+```
+Command:
+C:\>pip install robotframework-ride==1.5.2.1
+C:\>ride.py
+```
+
+![install RIDE](/images/1-install-ride.png)
+
+###ATOM
+ATOM is a text editor.<br />
+**Download ATOM: [Download ATOM](https://atom.io/)**
+After installed go to **file > settings** click Install then type robot and type terminal follow figure.
+
+![install Package](/images/2-install-package.png)
+
+![install Package](/images/3-install-package.png)
+
+###PyCharm
+PyCharm is a Python IDE for Professional Developers<br />
+PyCharm develop by jetbrains. eg. IntelliJ, PhpStorm<br />
+
+**Website for PyCharm: [Website for PyCharm](https://www.jetbrains.com/pycharm/)**<br />
+**Download PyCharm: [Download PyCharm](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows)**<br />
+Install PyCharm and then run it.<br />
+
+![install Package](/images/4-install-pycharm.png)
 
 ##End of Setup
