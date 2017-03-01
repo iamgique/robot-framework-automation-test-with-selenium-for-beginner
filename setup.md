@@ -85,6 +85,17 @@ pip install --upgrade robotframework
 pip install robotframework==2.9.2
 ```
 
+#Install Robot Framework Database-Library
+```
+Command:
+pip install robotframework-databaselibrary
+```
+
+#Install Robot Framework pymysql
+```
+pip install pymysql
+```
+
 #Install Robot Framework Selenium2library with pip
 ```
 Command:
